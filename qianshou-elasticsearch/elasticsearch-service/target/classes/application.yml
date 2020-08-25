@@ -1,0 +1,12 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.80.131:9300
+  application:
+    name: elasticsearch-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server:
+  port: 8847

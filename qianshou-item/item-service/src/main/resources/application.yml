@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: item-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  redis:
+    host: 39.101.132.2
+server:
+  port: 18083
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

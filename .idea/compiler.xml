@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qianshou-upload" />
+        <module name="user-service" />
+        <module name="user-interface" />
+        <module name="IM-interface" />
+        <module name="recommend-interface" />
+        <module name="common-swagger" />
+        <module name="vod-interface" />
+        <module name="common-utils" />
+        <module name="vod-service" />
+        <module name="qianshou-gateway" />
+        <module name="item-service" />
+        <module name="circle-service" />
+        <module name="elasticsearch-interface" />
+        <module name="circle-interface" />
+        <module name="elasticsearch-service" />
+        <module name="item-interface" />
+        <module name="friend-service" />
+        <module name="friend-interface" />
+        <module name="recommend-server" />
+        <module name="qianshou-index" />
+        <module name="IM-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-interface" target="1.8" />
+      <module name="autho-service" target="1.8" />
+      <module name="elasticserach-interface" target="1.8" />
+      <module name="elasticserach-service" target="1.8" />
+      <module name="qianshou-auth" target="1.8" />
+      <module name="qianshou-index" target="1.8" />
+      <module name="qianshou-sso" target="1.8" />
+      <module name="qianshou-sso (1)" target="1.8" />
+      <module name="qianshou-vod" target="1.8" />
+      <module name="upload-interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IM-interface" options="-parameters" />
+      <module name="IM-service" options="-parameters" />
+      <module name="QianShou_Project" options="-parameters" />
+      <module name="auth-interface" options="-parameters" />
+      <module name="autho-service" options="-parameters" />
+      <module name="circle-interface" options="-parameters" />
+      <module name="circle-service" options="-parameters" />
+      <module name="common-swagger" options="-parameters" />
+      <module name="common-utils" options="-parameters" />
+      <module name="elasticsearch-interface" options="-parameters" />
+      <module name="elasticsearch-service" options="-parameters" />
+      <module name="elasticserach-interface" options="-parameters" />
+      <module name="elasticserach-service" options="-parameters" />
+      <module name="friend-interface" options="-parameters" />
+      <module name="friend-service" options="-parameters" />
+      <module name="item-interface" options="-parameters" />
+      <module name="item-service" options="-parameters" />
+      <module name="qianshou-IM" options="-parameters" />
+      <module name="qianshou-auth" options="-parameters" />
+      <module name="qianshou-circle" options="-parameters" />
+      <module name="qianshou-common" options="-parameters" />
+      <module name="qianshou-elasticsearch" options="" />
+      <module name="qianshou-gateway" options="-parameters" />
+      <module name="qianshou-index" options="-parameters" />
+      <module name="qianshou-item" options="-parameters" />
+      <module name="qianshou-recommend" options="-parameters" />
+      <module name="qianshou-sso" options="-parameters" />
+      <module name="qianshou-upload" options="-parameters" />
+      <module name="qianshou-user" options="-parameters" />
+      <module name="recommend-interface" options="-parameters" />
+      <module name="recommend-server" options="-parameters" />
+      <module name="upload-interface" options="-parameters" />
+      <module name="user-interface" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="vod-interface" options="-parameters" />
+      <module name="vod-service" options="-parameters" />
+    </option>
+  </component>
+</project>

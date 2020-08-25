@@ -1,0 +1,43 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: QIANSHOU-USER-SERVICE
+          uri: lb://user-service
+          predicates:
+            - Path=/api/user/**,/api/userInfo/**
+          filters:
+            - StripPrefix=1
+        - id: QIANSHOU-RECOMMEND
+          uri: lb://qianshou-recommend
+          predicates:
+            - Path=/qianshou-recommend
+          filters:
+            - StripPrefix=1
+        - id: ELASTICSEARCH-SERVICE
+          uri: lb://elasticsearch-service
+          predicates:
+            - Path=/api/elasticsearch-service
+          filters:
+            - StripPrefix=1
+  application:
+    name: qianshou-gateway
+  redis:
+    host: 39.101.132.2
+
+qianshou:
+  jwt:
+    pubKeyPath: C:\\Temp\\rsa.pub # 公钥地址
+exclude:
+  uri:
+    - /api/user/login
+    - /api/user/register
+    - /api/user/sendCode

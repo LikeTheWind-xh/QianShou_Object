@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/qianshou-IM/IM-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-IM/IM-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-IM/IM-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-IM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-IM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-circle/circle-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-circle/circle-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-circle/circle-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-circle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-circle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/common-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/common-utils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/elasticsearch-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/elasticsearch-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/elasticsearch-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/elasticsearch-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-elasticsearch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/friend-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/friend-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/friend-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/friend-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-friend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-item/item-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-item/item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-item/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-recommend/recommend-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-recommend/recommend-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-recommend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-recommend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-user/user-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-user/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-vod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-vod/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-vod/vod-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qianshou-vod/vod-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

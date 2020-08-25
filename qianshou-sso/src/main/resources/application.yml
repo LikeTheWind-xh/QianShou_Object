@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: admin_xiehao
+    password: User@getPassword
+    url: jdbc:mysql://rm-8vbafb264sx0z46zl5o.mysql.zhangbei.rds.aliyuncs.com:3306/pink-tanhua?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 39.101.132.2
+server:
+  port: 18080
+
+pink:
+  sms:
+    accessKeyId: LTAI4FuRL52kdixkgGkpr3k3 # 访问身份验证中用到用户标识
+    accessKeySecret: h1q9w0hfUoY86YGQUOe8KO9vt5g5Pp # 用户用于加密签名字符串用来验证签名字符串的密钥
+    signName: PK论坛APP
+    verifyCodeTemplate: SMS_186950820 #模板名称
+
+qianshou:
+  secret: X~h_l!o!v!e!z(y_l)

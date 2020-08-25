@@ -1,0 +1,28 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/qianshou
+  application:
+    name: circle-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  redis:
+    host: 39.101.132.2
+    timeout: 5000
+server:
+  port: 18082
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+#dubbo:
+#  scan:
+#    base-packages: com.qianshou.circle.service
+#  protocol:
+##    暴露dubbo
+#    name: dubbo
+##    暴露的dubbo端口
+#    port: 7000
+#  registry:
+#    address: nacos://localhost:8848

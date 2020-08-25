@@ -1,0 +1,29 @@
+aliyun:
+  oss:
+    endpoint: oss-cn-beijing.aliyuncs.com # oss对外服务的访问域名
+    accessKeyId: LTAI4FuRL52kdixkgGkpr3k3 # 访问身份验证中用到用户标识
+    accessKeySecret: h1q9w0hfUoY86YGQUOe8KO9vt5g5Pp # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    bucketName: pink-bucket # oss的存储空间
+server:
+  port: 18081
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+arcsoft:
+  appid: 4thFT98hLJoDuh8jURxiPqF8VpRE2WP95n3rcCWpjZMa
+  sdkKey: DhbRQ4tvEGYtd25iQaXPvwgE7XKAUkVujCBT49hhvnpD
+  libPath: E:\face\libs\WIN64
+fdfs:
+  tracker-list: 39.101.132.2:22122
+  connect-timeout: 2000
+  so-timeout: 2000
+
+  thumb-image:
+    width: 150
+    height: 150

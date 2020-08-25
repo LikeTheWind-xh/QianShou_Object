@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username: xiehao
+    password: HelloWorld
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///pink-qianshou?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: user-service
+  redis:
+    host: 39.101.132.2
+server:
+  port: 18080
+
+jwt:
+  secret: x_h!03~03~...z_y_x!01~11
+
+qianshou:
+  sms:
+    accessKeyId: LTAI4FuRL52kdixkgGkpr3k3 # 访问身份验证中用到用户标识
+    accessKeySecret: h1q9w0hfUoY86YGQUOe8KO9vt5g5Pp # 用户用于加密签名字符串用来验证签名字符串的密钥
+    signName: PK论坛APP
+    verifyCodeTemplate: SMS_186950820 #模板名称
