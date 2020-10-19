@@ -21,7 +21,7 @@ jwt:
 
 qianshou:
   sms:
-    accessKeyId: LTAI4FuRL52kdixkgGkpr3k3 # 访问身份验证中用到用户标识
-    accessKeySecret: h1q9w0hfUoY86YGQUOe8KO9vt5g5Pp # 用户用于加密签名字符串用来验证签名字符串的密钥
-    signName: PK论坛APP
-    verifyCodeTemplate: SMS_186950820 #模板名称
+    accessKeyId: ******* # 访问身份验证中用到用户标识
+    accessKeySecret: ******* # 用户用于加密签名字符串用来验证签名字符串的密钥
+    signName: *****
+    verifyCodeTemplate: ***** #模板名称
